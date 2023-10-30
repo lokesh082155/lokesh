@@ -1,0 +1,36 @@
+
+	"""
+//	/*
+//	 * // @Override // public EmployeePersonalInfoDto addEmployee(EmployeeMainDto
+//	 * dto) { // // EmployeePersonalInfo map = mapper.map(dto,
+//	 * EmployeePersonalInfo.class); // EmployeePersonalInfo save = dao.save(map); //
+//	 * for (EmployeeEducationInfo i : map.getEmployeeEducationInfoList()) { //
+//	 * i.setEmployeePersonalInfo(map); // } // return mapper.map(save,
+//	 * EmployeePersonalInfoDto.class); //// List<EmployeeEducationInfo>
+//	 * employeeEducationInfos=new ArrayList<>();
+//	 * 
+//	 * // for (EmployeeEducationInfo employeeEducationInfo : employeeEducationInfos)
+//	 * { // employeeEducationInfo.setEmployeePersonalInfo(EmployeePersonalInfo); //
+//	 * } // List<EmployeePersonalInfo> employeePersonalInfos =
+//	 * dto.getEmployeePersonalliList().stream().map(x->modelMapper.map(x,
+//	 * EmployeePersonalInfo.class)).collect(Collectors.toList()); //
+//	 * List<EmployeePersonalInfo> collect =
+//	 * employeePersonalInfos.stream().map(x->dao.save(x)).collect(Collectors.toList(
+//	 * )); // List<EmployeePersonalInfoDto> collect2 =
+//	 * collect.stream().map(x->modelMapper.map(x,
+//	 * EmployeePersonalInfoDto.class)).collect(Collectors.toList()); //
+//	 * EmployeePersonalInfo employeePersonalInfo = new EmployeePersonalInfo(); //
+//	 * BeanUtils.copyProperties(dto, employeePersonalInfo); //
+//	 * log.info("passed the value"); // System.out.println("passed the value"); //
+//	 * // for (EmployeeEducationInfo i :
+//	 * employeePersonalInfo.getEmployeeEducationInfoList()) { //
+//	 * i.setEmployeePersonalInfo(employeePersonalInfo); // } // EmployeePersonalInfo
+//	 * save = dao.save(employeePersonalInfo); // log.info("data saved"); //
+//	 * System.out.println("data saved"); //// EmployeePersonalInfoDto
+//	 * employeePersonalInfoDto = new EmployeePersonalInfoDto(); // EmployeeMainDto
+//	 * employeeMainDto = new EmployeeMainDto(); // BeanUtils.copyProperties(save,
+//	 * employeeMainDto); // return employeeMainDto; // return collect2;
+//	 * 
+//	 * // }
+""""""
+}
